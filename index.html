@@ -153,146 +153,187 @@
                 <h2 class="title__h2">ПОРТФОЛИО</h2>
             </div>
         </div>
-        <div class="portfolio__separator portfolio__separator_top"></div>
-        <div class="portfolio__grid-container">
-            <div class="portfolio__grid-item"><img src="img/portfolio-template-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Portfolio template</div>
-                    <div class="portfolio__grid-item__descr">Пример адаптивного портфолио на чистом JS</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Portfolio-template/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Portfolio-template" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
+        <div class="portfolio__separator portfolio__separator_top">
+            <div class="portfolio-tabs-title">
+                <div class="portfolio__tab-title portfolio-active" data-tab="html">HTML+CSS</div>
+                <div class="portfolio__tab-title" data-tab="js">JavaScipt</div>
+                <div class="portfolio__tab-title" data-tab="other">Other</div>
+            </div>
+        </div>
+        <div class="portfolio__tabs-wrapper">
+
+            <div class="portfolio__tab-wrapper">
+
+                <div class="portfolio__tab">
+                    <div class="portfolio__grid-container" data-type="html">
+
+                        <div class="portfolio__grid-item"><img src="img/portfolio-template-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Portfolio template</div>
+                                <div class="portfolio__grid-item__descr">Пример адаптивного портфолио на чистом JS</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Portfolio-template/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Portfolio-template" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/pulse-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Pulse</div>
+                                <div class="portfolio__grid-item__descr">Пример адаптивного лэндинга по продаже пульсометров</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Pulse/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Pulse" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/uber-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Uber</div>
+                                <div class="portfolio__grid-item__descr">Пример адаптивного лэндинга для такси</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Uber/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Uber" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/novic-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Portfolio template</div>
+                                <div class="portfolio__grid-item__descr">Не адаптивное портфолио для дизайнера</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Denis-Novic-Portfolio-html-css/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Denis-Novic-Portfolio-html-css" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
-            <div class="portfolio__grid-item"><img src="img/pulse-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Pulse</div>
-                    <div class="portfolio__grid-item__descr">Пример адаптивного лэндинга по продаже пульсометров</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Pulse/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Pulse" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
+            <div class="portfolio__tab-wrapper">
+
+                <div class="portfolio__tab">
+                    <div class="portfolio__grid-container" data-type="js" style="display: none;">
+
+                        <div class="portfolio__grid-item"><img src="img/calc-todo-project.jpg.png" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Calc and ToDo</div>
+                                <div class="portfolio__grid-item__descr">Простой калькулятор и ToDo лист на JS</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Calculator-ToDoList-js/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Calculator-ToDoList-js" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/lastfm-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">LastFm ToArtist</div>
+                                <div class="portfolio__grid-item__descr">Расширение для браузера, позволяющее быстро переходить на музыкальные сервисы со страницы исполнителя в LastFm</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://chrome.google.com/webstore/detail/lastfm-toartist/ahhddpapnkhalbbpnnfnpddpfeaipgan" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/LastFm-ToArtist" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/diet-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Healty diet</div>
+                                <div class="portfolio__grid-item__descr">Простой сайт по заказу здоровой пищи с калькулятором калорий на чистом JS</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/Healthy-diet/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/Healthy-diet" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/hardware-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Hardware shop</div>
+                                <div class="portfolio__grid-item__descr">Сайт по заказу остекления, написанный с модульным подходом на чистом JS, с небольшим использованием JQuery</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/hardware-shop/dist/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/hardware-shop" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__grid-item"><img src="img/blackjack-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">BlackJack</div>
+                                <div class="portfolio__grid-item__descr">Браузерная игра БлекДжек со ставками и сохранением прогресса</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://sandexplus.github.io/BlackJack/dist/" target="_blank">
+                                        <div class="portfolio__grid-item__link">ДЕМО</div>
+                                    </a>
+                                    <a href="https://github.com/sandexplus/BlackJack" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="portfolio__grid-item"><img src="img/uber-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Uber</div>
-                    <div class="portfolio__grid-item__descr">Пример адаптивного лэндинга для такси</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Uber/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Uber" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/novic-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Portfolio template</div>
-                    <div class="portfolio__grid-item__descr">Не адаптивное портфолио для дизайнера</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Denis-Novic-Portfolio-html-css/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Denis-Novic-Portfolio-html-css" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/pizza-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Pizza Restaurant</div>
-                    <div class="portfolio__grid-item__descr">Попытки работать с фреймворком Laravel. Сайт для продажи пиццы. Имеется база данных и отправка писем о новом заказе. Для запуска нужен сервер</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://github.com/sandexplus/Internet-Magazin" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/calc-todo-project.jpg.png" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Calc and ToDo</div>
-                    <div class="portfolio__grid-item__descr">Простой калькулятор и ToDo лист на JS</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Calculator-ToDoList-js/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Calculator-ToDoList-js" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/lastfm-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">LastFm ToArtist</div>
-                    <div class="portfolio__grid-item__descr">Расширение для браузера, позволяющее быстро переходить на музыкальные сервисы со страницы исполнителя в LastFm</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://chrome.google.com/webstore/detail/lastfm-toartist/ahhddpapnkhalbbpnnfnpddpfeaipgan" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/LastFm-ToArtist" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/diet-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Healty diet</div>
-                    <div class="portfolio__grid-item__descr">Простой сайт по заказу здоровой пищи с калькулятором калорий на чистом JS</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/Healthy-diet/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/Healthy-diet" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/hardware-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">Hardware shop</div>
-                    <div class="portfolio__grid-item__descr">Сайт по заказу остекления, написанный с модульным подходом на чистом JS, с небольшим использованием JQuery</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/hardware-shop/dist/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/hardware-shop" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio__grid-item"><img src="img/blackjack-project.jpg" alt="project" class="portfolio__grid-item-img">
-                <div class="portfolio__grid-item__wrapper">
-                    <div class="portfolio__grid-item__title">BlackJack</div>
-                    <div class="portfolio__grid-item__descr">Браузерная игра БлекДжек со ставками и сохранением прогресса</div>
-                    <div class="portfolio__grid-item__btns">
-                        <a href="https://sandexplus.github.io/BlackJack/dist/" target="_blank">
-                            <div class="portfolio__grid-item__link">ДЕМО</div>
-                        </a>
-                        <a href="https://github.com/sandexplus/BlackJack" target="_blank">
-                            <div class="portfolio__grid-item__link">GIT</div>
-                        </a>
+            <div class="portfolio__tab-wrapper">
+                <div class="portfolio__tab">
+                    <div class="portfolio__grid-container" data-type="other" style="display: none;">
+
+                        <div class="portfolio__grid-item"><img src="img/pizza-project.jpg" alt="project" class="portfolio__grid-item-img">
+                            <div class="portfolio__grid-item__wrapper">
+                                <div class="portfolio__grid-item__title">Pizza Restaurant</div>
+                                <div class="portfolio__grid-item__descr">Попытки работать с фреймворком Laravel. Сайт для продажи пиццы. Имеется база данных и отправка писем о новом заказе. Для запуска нужен сервер</div>
+                                <div class="portfolio__grid-item__btns">
+                                    <a href="https://github.com/sandexplus/Internet-Magazin" target="_blank">
+                                        <div class="portfolio__grid-item__link">GIT</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="portfolio__separator portfolio__separator_bot">
             <div class="portfolio__separator-text">И еще много чего впереди!</div>
         </div>

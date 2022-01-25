@@ -935,8 +935,8 @@ body {
 }
 
 .portfolio__separator {
+    padding-top: 45px;
     background-color: #0b0b0b;
-    padding-top: 22px
 }
 
 .portfolio__separator_top {
@@ -944,7 +944,7 @@ body {
 }
 
 .portfolio__separator_bot {
-    height: 70px
+    height: 112px
 }
 
 .portfolio__separator-text {
@@ -1650,4 +1650,38 @@ body {
     .footer__subtitle {
         font-size: 15px
     }
+}
+
+.portfolio-tabs-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.portfolio__tab-title {
+    margin-right: 90px;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-active {
+    color: #FFFBFB;
+}
+
+.portfolio__tab-title::after {
+    content: '';
+    width: 200px;
+    height: 2px;
+    background-color: #7C7C7C;
+    position: absolute;
+    bottom: -20px;
+    left: -80px;
+}
+
+.portfolio__tab-title:nth-child(3) {
+    margin-right: 0;
 }
