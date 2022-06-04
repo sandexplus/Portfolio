@@ -1,0 +1,19 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: #0B0B0B;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 65px;
+        
+    }
+    &__logo {
+        & svg path {
+            fill: #fff;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.skills {
+    z-index: 2;
+    position: relative;
+    padding-top: 156px;
+    background-color: #D7D7D7;
+    padding-bottom: 162px;
+    &__title {
+        margin-top: 75px;
+    }
+    &__grid {
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(240px, 1fr));
+        grid-gap: 40px;
+        row-gap: 65px;
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+    }
+    &__skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 17px;
+        transition: .5s all;
+        opacity: 0;
+        transform: translateY(-50px);
+        & span {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: 0.13538em;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        & svg, img {
+            width: 100px;
+            height: 100px;
+            fill: #000000;
+            transition: all 0.3s ease-in-out;
+        }
+        &.is-visible {
+            transition: all .5s ease-in-out;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+//make animation
+@keyframes rotate-icon {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

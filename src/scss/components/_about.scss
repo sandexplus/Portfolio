@@ -1,0 +1,38 @@
+.about {
+    z-index: 2;
+    position: relative;
+    padding-top: 156px;
+    background-color: #D7D7D7;
+    &__text {
+        max-width: 763px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    &__skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 106px;
+        flex-wrap: wrap;
+        margin-top: 120px;
+    }
+    &__skill {
+        width: 431px;
+    }
+    &__title {
+        position: relative;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        & img {
+            position: absolute;
+            transform: translate(-60%, -30%);   
+        }
+    }
+    &__descr {
+        margin-top: 20px;
+    }
+}

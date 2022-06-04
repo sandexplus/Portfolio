@@ -1,0 +1,99 @@
+.promo {
+    padding-top: calc(75px + 65px);
+    background-color: #D7D7D7;
+    min-height: 100vh;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: -140px;
+        right: -100px;
+        width: 62%;
+        height: 130%;
+        background-color: #000;
+        z-index: 0;
+        transform: rotate(9.67deg);
+        overflow: hidden;
+    }
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        position: relative;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__welcome {
+        display: flex;
+        flex-direction: column;
+    }
+    &__suptitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #000000;
+        margin: 0;
+    }
+    &__title {
+        margin: 0;
+        margin-top: 55px;
+        font-weight: 700;
+        font-size: 80px;
+        color: #000000;
+        max-width: 300px;
+    }
+    &__subtitle {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        margin: 0;
+        color: #919191;
+    }
+    &__links {
+        display: flex;
+        gap: 30px;
+        margin-top: 126px;
+    }
+    &__link {
+        width: 61px;
+        height: 61px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #C4C4C4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+    &__img {
+        z-index: 2;
+        position: relative;
+        height: calc(100vh - 194px); 
+        & img {
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__img-descr {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 3;
+        // font-family: 'Roboto';
+        font-style: normal;
+        text-align: left;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        max-width: 155px;
+    }
+}
